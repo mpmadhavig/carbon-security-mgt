@@ -26,10 +26,11 @@ import org.wso2.carbon.base.CarbonBaseConstants;
 import org.wso2.carbon.base.ServerConfiguration;
 import org.wso2.carbon.core.util.KeyStoreManager;
 import org.wso2.carbon.core.util.KeyStoreUtil;
-import org.wso2.carbon.security.keystore.service.CertData;
-import org.wso2.carbon.security.keystore.service.PaginatedKeyStoreData;
-import org.wso2.carbon.security.testutil.powermock.PowerMockIdentityBaseTest;
-import org.wso2.carbon.security.util.KeyStoreMgtUtil;
+import org.wso2.carbon.security.mgt.keystore.KeyStoreAdmin;
+import org.wso2.carbon.security.mgt.keystore.service.CertData;
+import org.wso2.carbon.security.mgt.keystore.service.PaginatedKeyStoreData;
+import org.wso2.carbon.security.mgt.testutil.powermock.PowerMockIdentityBaseTest;
+import org.wso2.carbon.security.mgt.util.KeyStoreMgtUtil;
 import org.wso2.carbon.utils.CarbonUtils;
 
 import java.io.FileInputStream;

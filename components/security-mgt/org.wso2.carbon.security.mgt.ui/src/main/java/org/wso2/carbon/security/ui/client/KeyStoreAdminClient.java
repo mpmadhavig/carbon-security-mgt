@@ -42,7 +42,7 @@ import org.wso2.carbon.security.mgt.stub.keystore.KeyStoreAdminServiceStub;
 import org.wso2.carbon.security.mgt.stub.keystore.RemoveCertFromStore;
 import org.wso2.carbon.security.mgt.stub.keystore.xsd.KeyStoreData;
 import org.wso2.carbon.security.mgt.stub.keystore.xsd.PaginatedKeyStoreData;
-import org.wso2.carbon.security.util.KeyStoreIOStreamUtils;
+import org.wso2.carbon.security.mgt.util.KeyStoreIOStreamUtils;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
