@@ -26,9 +26,9 @@ import org.wso2.carbon.base.CarbonBaseConstants;
 import org.wso2.carbon.base.ServerConfiguration;
 import org.wso2.carbon.core.util.KeyStoreManager;
 import org.wso2.carbon.core.util.KeyStoreUtil;
-import org.wso2.carbon.identity.testutil.powermock.PowerMockIdentityBaseTest;
 import org.wso2.carbon.security.keystore.service.CertData;
 import org.wso2.carbon.security.keystore.service.PaginatedKeyStoreData;
+import org.wso2.carbon.security.testutil.powermock.PowerMockIdentityBaseTest;
 import org.wso2.carbon.security.util.KeyStoreMgtUtil;
 import org.wso2.carbon.utils.CarbonUtils;
 
@@ -47,7 +47,6 @@ import static org.testng.Assert.assertEquals;
         ServerConfiguration.class, KeyStoreUtil.class})
 public class KeyStoreAdminTest extends PowerMockIdentityBaseTest {
 
-    // Todo: check the class casting issue
     public static final String SERVER_TRUSTSTORE_FILE = "Security.TrustStore.Location";
     public static final String SERVER_TRUSTSTORE_PASSWORD = "Security.TrustStore.Password";
     @Mock
