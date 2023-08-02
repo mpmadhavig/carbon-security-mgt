@@ -32,8 +32,7 @@
     <name>WSO2 Carbon - Security Management</name>
 
     <modules>
-        <module>components/security-mgt/org.wso2.carbon.security.mgt</module>
-        <module>components/security-mgt/org.wso2.carbon.security.mgt.ui</module>
+        <module>components/security-mgt</module>
         <module>service-stubs/org.wso2.carbon.security.mgt.stub</module>
         <module>features/security-mgt</module>
     </modules>

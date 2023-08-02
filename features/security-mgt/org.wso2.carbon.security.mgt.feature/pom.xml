@@ -27,7 +27,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>org.wso2.carbon.security.mgt.feature</artifactId>
     <packaging>pom</packaging>
-    <name>Key Store Management Feature</name>
+    <name>WSO2 Carbon - Security Management Core Feature</name>
     <url>http://wso2.org</url>
     <description>This feature contains the bundles required for Security Management functionality</description>
 
