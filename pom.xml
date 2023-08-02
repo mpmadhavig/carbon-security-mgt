@@ -32,9 +32,10 @@
     <name>WSO2 Carbon - Security Management</name>
 
     <modules>
-        <module>org.wso2.carbon.security.mgt</module>
-        <module>org.wso2.carbon.security.mgt.ui</module>
-        <module>org.wso2.carbon.security.mgt.stub</module>
+        <module>components/security-mgt/org.wso2.carbon.security.mgt</module>
+        <module>components/security-mgt/org.wso2.carbon.security.mgt.ui</module>
+        <module>service-stubs/org.wso2.carbon.security.mgt.stub</module>
+        <module>features/security-mgt</module>
     </modules>
 
     <scm>
@@ -153,6 +154,26 @@
                 <groupId>org.apache.axis2.wso2</groupId>
                 <artifactId>axis2-client</artifactId>
                 <version>${axis2.wso2.version}</version>
+            </dependency>
+
+            <!--feature-->
+            <dependency>
+                <groupId>org.wso2.carbon.security.mgt</groupId>
+                <artifactId>org.wso2.carbon.security.mgt.feature</artifactId>
+                <version>${security.mgt.version}</version>
+                <type>zip</type>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.carbon.security.mgt</groupId>
+                <artifactId>org.wso2.carbon.security.mgt.server.feature</artifactId>
+                <version>${security.mgt.version}</version>
+                <type>zip</type>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.carbon.security.mgt</groupId>
+                <artifactId>org.wso2.carbon.security.mgt.ui.feature</artifactId>
+                <version>${security.mgt.version}</version>
+                <type>zip</type>
             </dependency>
 
             <!-- Testing related dependencies -->
@@ -295,6 +316,7 @@
         <maven.surefire.plugin.version>2.22.0</maven.surefire.plugin.version>
 
         <carbon.kernel.version>4.9.10</carbon.kernel.version>
+        <carbon.kernel.feature.version>4.7.0</carbon.kernel.feature.version>
         <carbon.kernel.package.import.version.range>[4.5.0, 5.0.0)</carbon.kernel.package.import.version.range>
         <carbon.kernel.package.exp.version.range>[4.5.0, 5.0.0)</carbon.kernel.package.exp.version.range>
 
@@ -332,5 +354,8 @@
         <log4j.api.version>2.17.1</log4j.api.version>
         <log4j.core.version>2.17.1</log4j.core.version>
         <commons.logging.version>1.2</commons.logging.version>
+
+        <!-- Misc -->
+        <carbon.p2.plugin.version>5.1.2</carbon.p2.plugin.version>
     </properties>
 </project>

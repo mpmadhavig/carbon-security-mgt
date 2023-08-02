@@ -23,7 +23,7 @@
         <groupId>org.wso2.carbon.security.mgt</groupId>
         <artifactId>carbon-security-mgt</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>../../../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -33,12 +33,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.wso2</groupId>
+            <groupId>org.wso2.carbon.security.mgt</groupId>
             <artifactId>org.wso2.carbon.security.mgt</artifactId>
             <version>${security.mgt.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.wso2</groupId>
+            <groupId>org.wso2.carbon.security.mgt</groupId>
             <artifactId>org.wso2.carbon.security.mgt.stub</artifactId>
             <version>${security.mgt.version}</version>
         </dependency>
