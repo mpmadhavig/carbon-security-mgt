@@ -21,7 +21,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>org.wso2.carbon.security.mgt</groupId>
-        <artifactId>security-mgt</artifactId>
+        <artifactId>carbon-security-mgt</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -83,8 +83,6 @@
                             version="${security.mgt.package.import.version.range}",
                             org.wso2.carbon.security.mgt.*;
                             version="${security.mgt.package.import.version.range}",
-                            org.wso2.carbon.identity.sts.common.stub.config.*;
-                            version="${carbon.identity.package.import.version.range}",
                             org.wso2.carbon.user.mgt.stub.types.carbon; version="${carbon.kernel.package.import.version.range}"
                         </Import-Package>
                         <Export-Package>
